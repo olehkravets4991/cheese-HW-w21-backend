@@ -1,6 +1,6 @@
 from .models import Cheese
 from rest_framework import viewsets, permissions
-from .serializers import TodoSerializer
+from .serializers import CheeseSerializer
 
 class CheeseViewSet(viewsets.ModelViewSet):
     ## queryset is a list of all Todo objects
